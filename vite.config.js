@@ -1,17 +1,12 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
+  base: '/UrbanRoll/',
   resolve: {
     alias: {
       'react-native': 'react-native-web',
     },
-    extensions: ['.web.js', '.web.jsx', '.js', '.jsx', '.ts', '.tsx'],
   },
-  server: {
-    host: true,
-    port: 5173,
-    strictPort: true,
-  },
-});
+})
