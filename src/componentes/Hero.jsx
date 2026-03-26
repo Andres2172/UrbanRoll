@@ -9,8 +9,8 @@ export default function Hero() {
       <div className="hero-content">
         <p style={{color: 'var(--teal)', letterSpacing: '4px'}}>// SKATE · CIUDAD · LIBERTAD</p>
         <h1 className="hero-title">RUEDA<br/><span className="hl">SIN</span><br/>LÍMITES</h1>
-        <div style={{display: 'flex', gap: '15px', marginTop: '30px'}}>
-          <button onClick={() => handleScroll('beneficios')} className="btn-main">VER MÁS</button>
+        <div style={{display: 'flex', gap: '15px', marginTop: '30px', color: '#70CBC2'}}>
+          <button onClick={() => handleScroll('beneficios')} className="btn-main" style={{color: '#70CBC2'}}>VER MÁS</button>
         </div>
       </div>
     </section>
